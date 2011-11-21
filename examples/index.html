@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>jscsv Example</title>
+	<script type="text/javascript" src="../src/Csv.js"></script>
+	<script type="text/javascript">
+	
+		function parseFromTextarea() {
+
+			var csv = new jscsv.Csv({
+				onRecord : function(rec) {
+					console.log('received record', rec);
+				}
+			});
+			
+			csv.parse(document.getElementById('csvTextarea').value);
+		}
+	
+	</script>
+</head>
+<body>
+<form>
+
+<textarea id="csvTextarea" cols="80" rows="10">
+A1,"B1
+
+Still B1",C1
+A2,B2,C2,
+"",B3,C3,
+"""",B4,C4
+"This is a line with ""inline quotation"" using 2 double quotes",B5,C5
+
+
+</textarea>
+<p/>
+<input type="button" value="log output" onclick="parseFromTextarea();">
+</form>
+
+</body>
+</html>
