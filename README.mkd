@@ -1,0 +1,13 @@
+jscsv
+=====
+
+jscsv will be a lightweight implementation of a CSV parser in JavaScript.
+
+Objective
+---------
+Most implementations you can find in forums either do not conform to the CSV RFC
+(http://tools.ietf.org/html/rfc4180) or require other libraries and environments. This parser
+does not depend on any third-party library and hence can be included anywhere. You could use
+it for previewing csv uploads right in the browser, for example.
+
+Look at the code if you already want to use it, but note that this is work in progress.
