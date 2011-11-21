@@ -3,8 +3,8 @@ jscsv
 
 jscsv will be a lightweight implementation of a CSV parser in JavaScript.
 
-Objective
----------
+Why do I need this?
+-------------------
 Most implementations you can find in forums either do not conform to the CSV RFC
 (http://tools.ietf.org/html/rfc4180) or require other libraries and environments. This parser
 does not depend on any third-party library and hence can be included anywhere. You could use
