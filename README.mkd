@@ -10,4 +10,4 @@ Most implementations you can find in forums either do not conform to the CSV RFC
 does not depend on any third-party library and hence can be included anywhere. You could use
 it for previewing csv uploads right in the browser, for example (this is what I intended to do with it).
 
-Look at the code if you already want to use it (yes, it works! check out the example), but note that this is work in progress. Be sure to compress the code with YUI Compressor or something like that if you use it in production.
+Look at the code if you already want to use it (yes, it works! check out the example), but note that this is work in progress. Be sure to compress the code with YUI Compressor or something like that if you use it in production. YUI Compressor reduces it to 1588 characters!
