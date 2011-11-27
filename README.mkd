@@ -1,7 +1,7 @@
-jscsv
+csv.js
 =====
 
-jscsv is a lightweight implementation of a CSV parser in JavaScript.
+csv.js is a lightweight implementation of a CSV parser in JavaScript.
 
 Why do I need this?
 -------------------
